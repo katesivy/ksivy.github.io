@@ -7,12 +7,13 @@
     height: 30px;
     width: 300px;
     line-height: 2em;
+    background-color: transparent;
 }
 
 a[href*=".html"] {
     height: 40px;
     width: 50 px;
-    background-color: goldenrod;
+    background-color: white;
     border: solid;
 }
 
@@ -22,6 +23,7 @@ header {
     margin: 10px;
     padding: 25 px;
     line-height: 90px;
+    background-color: transparent;
 }
 
 h1, h2 {
@@ -29,10 +31,12 @@ h1, h2 {
     font-size: 75px;
     font-style: oblique;
     padding: 25px;
+    background-color: transparent;
 }
 
 h1 {
     font-size: 50px;
+    background-color: transparent;
 }
 
 .box {
@@ -41,7 +45,7 @@ h1 {
     margin: 10px;
     padding: 25px;
     border: solid;
-    background-color: white;
+    background-color: transparent;
     font-size: 40px;
 }
 
@@ -50,6 +54,7 @@ h1 {
     width: 300px;
     margin: 10px;
     padding: 25px;
+    background-color: transparent;
 }
 
 footer {
@@ -57,8 +62,15 @@ footer {
     width: 500px;
     margin: 10px;
     padding: 25px;
+    background-color: transparent;
+    color: white;
 }
 
 section {
     margin: 45px;
+    background-color: transparent;
+}
+
+article {
+    background-color: transparent;
 }
