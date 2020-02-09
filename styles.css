@@ -6,7 +6,6 @@
 .wrapper {
     height: 30px;
     width: 300px;
-    background-color: lightpink;
     line-height: 2em;
 }
 
@@ -23,7 +22,6 @@ header {
     margin: 10px;
     padding: 25 px;
     line-height: 90px;
-    background-color: lightgoldenrodyellow;
 }
 
 h1, h2 {
