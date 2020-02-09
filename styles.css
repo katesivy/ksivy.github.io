@@ -13,7 +13,7 @@
 a[href*=".html"] {
     height: 40px;
     width: 50 px;
-    background-color: lightseagreen;
+    background-color: lightblue;
     border: solid;
 }
 
@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 25px
+    font-size: 50px;
 }
 
 .box {
@@ -59,8 +59,4 @@ footer {
     width: 500px;
     margin: 10px;
     padding: 25px;
-}
-
-.span {
-    margin-left: 100px;
 }
