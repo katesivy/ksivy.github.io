@@ -3,6 +3,12 @@
 * {
     background-color: lightblue;
 }
+ 
+body {
+    background-size: cover;
+}
+
+
 .wrapper {
     height: 30px;
     width: 300px;
@@ -16,7 +22,7 @@ a[href*=".html"] {
     width: 50 px;
     background-color: white;
     border: solid;
-    border-radius: 10px
+    border-radius: 20px
     color: black;
 }
 
