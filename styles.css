@@ -61,6 +61,10 @@ p {
     font-weight: 700;
 }
 
+section p {
+    padding-left: 30px;
+}
+
 footer {
     height: 150px;
     width: 500px;
