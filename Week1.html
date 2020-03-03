@@ -1,63 +1,148 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Kate's Blog</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <div class="wrapper">
-  <a href="index.html">Home</a>
-  <a href="Week1.html">Week 1</a>
-  <a href="Week2.html">Week 2</a>
-  <a href="Week3.html">Week 3</a>
+</head>
+
+<!--navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Weekly Blogs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="Week1.html">Week 1</a>
+                    <a class="dropdown-item" href="Week2.html">Week 2</a>
+                    <a class="dropdown-item" href="Week3.html">Week 3</a>
+                    <a class="dropdown-item" href="Week4.html">Week 4</a>
+                    <a class="dropdown-item" href="Week5.html">Week 5</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
 </div>
 
-  <body>
-  <header>
-      <h1>
-          Week 1
-      </h1>
-  </header>
-  <main>
-  <section>
-     
-      <h3>1. Was your first week what you expected?</h3>
-    <p>Overall, this first week was more difficult than what I was expecting. 
-        I thought there would be some more baby steps before we had to really know what we were doing. 
-        Justin keeps reminding us that discomfort is the desired state to be in; I've mastered that, at least! 
-    </p>
+<body>
+    <!--header-->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 bg-secondary">
+                <h1 class="display 3 text-center pt-5 my-5">Week 1</h1>
+            </div>
+        </div>
+    </div>
+    <main>
 
-    <h3>2. What are you struggling with?</h3>
-        <p>Navigating through GitHub wasn't so bad, 
-        but applying CLI in the terminal was brand new and the source of much stress!
-        Generally, with CLI and GitHub, I feel like the commands and basic operations make sense in theory,
-        but when it's time for me to execute them, it's overwhelming and then frustrating when I inevitably
-        make the wrong choice.
-        </p>
-    
-    <h3>3. What are you excited or eager to learn more about?</h3>
-        <p>I am looking forward to learning about HTML and about doing things that affect the appearance 
-            of web pages. (I'm all about appearances, lol!) 
-        </p>
-    
-    <h3>4. "Aha" moment of the week:</h3>
-        <p>After being guided through setting up an index.html file in VS Code and
-            then pushing it to GitHub, I felt like I didn't need to worry about the 1,000 other
-        things I was trying to figure out and could just enjoy working with that set of commands. I'm still not 
-        confident I really know what I'm doing, but it's a nice feeling to be able to tell my computer to do 
-    certain things and have it actually do them! (If this past week was like telling all of us to drive somewhere
-    and everyone else has gotten there by now, I feel like I figured out how to put the key in the ignition. 
-    Baby steps.)
-        </p>
-    
-    <h3>5. One cool thing I learned this week about coding:</h3>
-        <p>A few days ago, someone on Slack referenced CLI, and I didn't know what he was talking about.
-            Now, I not only know what it stands for, but I can use it correctly! (At least to a small extent
-            at this point.)
-        </p>  
-    </section>
-</main>  
+
+
+        <!--main content-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 bg-light">
+
+                    <h3>1. Was your first week what you expected?</h3>
+                    <p>Overall, this first week was more difficult than what I was expecting.
+                        I thought there would be some more baby steps before we had to really know what we were doing.
+                        Justin keeps reminding us that discomfort is the desired state to be in; I've mastered that, at
+                        least!
+                    </p>
+
+                    <h3>2. What are you struggling with?</h3>
+                    <p>Navigating through GitHub wasn't so bad,
+                        but applying CLI in the terminal was brand new and the source of much stress!
+                        Generally, with CLI and GitHub, I feel like the commands and basic operations make sense in
+                        theory,
+                        but when it's time for me to execute them, it's overwhelming and then frustrating when I
+                        inevitably
+                        make the wrong choice.
+                    </p>
+
+                    <h3>3. What are you excited or eager to learn more about?</h3>
+                    <p>I am looking forward to learning about HTML and about doing things that affect the appearance
+                        of web pages. (I'm all about appearances, lol!)
+                    </p>
+
+                    <h3>4. "Aha" moment of the week:</h3>
+                    <p>After being guided through setting up an index.html file in VS Code and
+                        then pushing it to GitHub, I felt like I didn't need to worry about the 1,000 other
+                        things I was trying to figure out and could just enjoy working with that set of commands. I'm
+                        still
+                        not
+                        confident I really know what I'm doing, but it's a nice feeling to be able to tell my computer
+                        to do
+                        certain things and have it actually do them! (If this past week was like telling all of us to
+                        drive
+                        somewhere
+                        and everyone else has gotten there by now, I feel like I figured out how to put the key in the
+                        ignition.
+                        Baby steps.)
+                    </p>
+
+                    <h3>5. One cool thing I learned this week about coding:</h3>
+                    <p>A few days ago, someone on Slack referenced CLI, and I didn't know what he was talking about.
+                        Now, I not only know what it stands for, but I can use it correctly! (At least to a small extent
+                        at this point.)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-center pt-3 my-3">This is me starting out:</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                </div>
+                <div class="col-4 text-center">
+                    <img src="forky.jpg" class="img-fluid mx-auto d-block float-center" alt="forky asks a question">
+                </div>
+                <div class="col-4">
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
